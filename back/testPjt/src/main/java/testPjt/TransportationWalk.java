@@ -1,4 +1,4 @@
-package lec03Pjt001;
+package testPjt;
 
 public class TransportationWalk {
 }
