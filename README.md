@@ -4,7 +4,9 @@
 
 [인프런 자바 스프링 프레임워크]([https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC_renew](https://www.inflearn.com/course/스프링-프레임워크_renew))
 
+** 예제 코드 사용을 위해서 항상 Maven 으로 import해줘야한다.
 
+** Intellij에서 폴더에서 import하는거 찾아야겠다.
 
 
 
@@ -99,6 +101,14 @@ Artifact id
 
 
 
+3. **applicationContext** 
+
+
+
+4. **DI 설정**
+
+
+
 
 
 #### 프로젝트 구조 Install
@@ -138,6 +148,32 @@ nvm install v10.15.1
 vue create 프로젝트명 // CLI 3 버전
 npm run serve // 서버 열기
 ```
+
+
+
+
+
+#### DI (Dependency Injection) 
+
+- 객체를 모두 독립화 시켜서 유연성 있게 프로그래밍 및 유지보수하는 것이 OOP라고 할 수 있는데,
+- 배터리 일체형, 배터리 분리형: 배터리에 의존해서 배터리를 주입
+- 어떻게 스프링에서 DI하는가? 스프링 컨테이너 안에서 객체가 서로 주입하고 의존하는 관계를 만든다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
