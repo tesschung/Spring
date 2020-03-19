@@ -163,7 +163,13 @@ npm run serve // 서버 열기
 
 
 
+#### 다양한 의존 객체 주입
 
+- constructor-arg에 해당하는 id값을 넣는다.
+
+- setter를 이용한 의존 객체 주입
+- List타입 의존 객체 주입
+- Map타입 의존 객체 주입
 
 
 

@@ -18,6 +18,7 @@ public class StudentAssembler {
 	
 	public StudentAssembler() {
 		studentDao = new StudentDao();
+		// studentDao 객체에 의존
 		registerService = new StudentRegisterService(studentDao);
 		modifyService = new StudentModifyService(studentDao);
 		deleteService = new StudentDeleteService(studentDao);
